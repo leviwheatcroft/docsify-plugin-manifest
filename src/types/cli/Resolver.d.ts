@@ -1,0 +1,1 @@
+type Resolver = (resolverHash: ResolverHash) => void

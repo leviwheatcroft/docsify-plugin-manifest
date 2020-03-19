@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.root.json",
+  "compilerOptions": {
+    "baseUrl": "../",
+    "paths": {
+      "@lib/*": [
+        "./plugin/lib/*"
+      ],
+      "@typeGuards": [
+        "./types/typeGuards.ts"
+      ]
+    }
+  },
+  "include": [ "./**/*", "../types", "../cli/lib/Manifest.ts", "../cli/lib/sizeOf.ts" ]
+}
