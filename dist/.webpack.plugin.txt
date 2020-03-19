@@ -1,0 +1,5 @@
+reflect-metadata: 50.03 KB (62.0%)
+process: 5.29 KB (6.55%)
+typescript-is: 2.94 KB (3.64%)
+webpack: 472 B (0.571%)
+<self>: 22.01 KB (27.3%)
