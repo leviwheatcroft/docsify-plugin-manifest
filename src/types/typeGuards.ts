@@ -44,6 +44,11 @@ export function isManifest (
   }
   return false
 }
+export function isManifestItem (
+  value: any
+): value is ManifestItem {
+  return is<ManifestItem>(value)
+}
 
 export function isConfig (
   value: any
