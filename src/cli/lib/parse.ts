@@ -7,6 +7,9 @@ import {
   parse as pathParse
 } from 'path'
 import { resolvers } from './resolvers'
+import {
+  isManifestItem
+} from '@typeGuards'
 
 const {
   readFile
@@ -42,6 +45,8 @@ export async function parse (
     }
     resolvers[field](resolverHash)
   })
+  if (!isManifestItem(data))
+    throw new RangeError()
 
   return data
 }

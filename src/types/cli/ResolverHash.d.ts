@@ -1,5 +1,5 @@
 interface ResolverHash {
-  data: ManifestItem
+  data: ManifestItemFragment
   frontmatter: Frontmatter
   args: Array<string>
   content: string
