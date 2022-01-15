@@ -45,7 +45,7 @@
     "gray-matter": "^4.0.2",
     "hjson": "^3.2.1",
     "json5": "^2.1.1",
-    "marked": "^0.8.0",
+    "marked": "^4.0.10",
     "multimatch": "^4.0.0",
     "nconf": "^0.10.0",
     "title-case": "^3.0.2",
